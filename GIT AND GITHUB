@@ -1,0 +1,69 @@
+git and github
+--> both used for the same purposes
+-->git can be used in our own local machine, so we downloaded
+-->github is web based
+=============================================
+USES OF GIT AND GITHUB
+============================================
+-->git and github are known as VCS(VERSION CONTROL SYSTEM)
+-->in vcs, we can commit each functionalities and older versions , so that we can easily switch to the
+older versions as they are saved in vcs
+-->in vcs, it has a remote location where we create a new folder first for our project,and the new folder
+is called repository
+-->from the repository which is in the github we have to clone the exact copy of the folder or repository
+to the local computer ie clone is the command to get the exact copy of the things stored in repository
+to the local system.At first the REPOSITORY WILL BE EMPTY
+--->if the developer does a particular function in his local system , it will be available only in thet
+system so it has to be copied or added to the repository in the remote location for this we use push
+command
+--->AFTER CLONe and pushing the functions to the remote repository,if another developer on his local system
+requires the newly added function in the repository, clone should not be used because it only requires
+the new function not everything in the repository so we can use the pull command to get the newly added
+function to the other local machine from the repository
+
+===================================================================
+
+SO THE BASIC COMMAND
+===============================================
+CLONE-->>REMOTE REPOSITORY TO LOCAL SYSTEM(EXACT COPY)
+PUSH-->LOCAL SYSTEM TO REMOTE REPOSITORY(NEW FUNCTIONS ARE ADDED)
+PULL-->REMOTE REPOSITORY TO LOCAL SYSTEM(ONLY UPDATION)
+
+THE ABOVE IS THE WORK FLOW
+======================================================
+
+
+WHILE WE SAY WE HAVE TO PUSH THE NEWLY CREATED FUNCTION INTO THE REMOTE RTEPOSITORY IT INCLUDES
+CERTAIN MORE STEPS
+
+1) WHEN WE CLONE, THE EMPTY REPOSITORY IS COPIED TO THE DEVELOPERS LOCAL MACHINE AND IT IS STORED IN ITS
+LOCAL STORAGE AREA
+
+2)IF A NEW FUNCTION IS CREATED IN THE DEVELOPER LOCAL MACHINE ,IT WILL BE STORED IN ITS LOCAL STORAGE AREA
+AND FROM THERE WE CANNOT DIRECTLY PUSH THE NEWLY ADDED FUNC TO THE REMOTE REPO
+
+3)WHILE USING THE GIT, A HIERARCHY WILL APPEAR
+
+4)IN THE HIERARCHY FIRST WE HAVE STAGING AREA AFTER THE LOCAL STORAGE
+SO FIRSTLY THE NEW FUNC CREATED IN THE LOCAL MACHINE WHICH IS STORED IN THE LOCAL STORAGE AREA HAS
+TO BE MOVED TO THE STAGING AREA FOR THAT WE HAVE TO USE add command--git add filename
+
+5)AFTER STAGING AREA, COMES THE LOCAL REPOSITORY, SO AFTER ADDING THE FUNC IN THE STAGING AREA IT HAS TO
+ADDED TO THE LOCAL REPOSITORY AND ONLY FROM LOCAL REPOSITORY WE CAN PUSH THE FUNCTION INTO THE REMOTE
+REPOSITORY--TO MOVE FUNC FROM STAGING AREA TO LOCAL REPOSITORY WE USE THE COMMAND----"git commit"
+=======================================================================
+
+COMMANDS
+===============================
+git clone--- from remote repo to local storage(exact copy)
+git add -A--- add all the funcs from local storage area to staging area
+git commit-- move the funcs from staging area to local repo
+git push---from local repo to remote repo(new function)
+git pull---from remote repo to local system(only updation)
+git status--- list all untracked files
+git init-- produces the hierarchy and make a connection with git
+
+
+
+
+

@@ -1,0 +1,44 @@
+PYTHON
+====================
+django
+==========
+it is used for web application development
+to develop a website we require a frontend and a backend
+
+frontend
+==================================
+>angular(framework of javascript)
+>html
+>css
+>bootstrap
+>javascript
+>ajax
+>jquery
+>react
+
+
+backend
+=========================
+2 precedures are carried out in backend
+================================
+1) DATA PROCESSING
+2) DATA STORING
+============================================
+DATA PROCESSING
+==============================
+>python
+>java
+>php
+>c#
+
+DATA STORING
+=============================================
+>DIFFERENT TYPES OF DATABASE
+ >mysql
+ >postgres
+ >sqlite
+above all are structured database
+nosql(mongo db)
+
+
+
